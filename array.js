@@ -1,0 +1,15 @@
+let fruits=["apple","orange",93];
+console.log(fruits);
+console.log(fruits[0]);
+console.log(fruits[1]);
+console.log(fruits.length);
+fruits.push("kiwi");
+console.log(fruits);
+fruits.unshift("grape");
+console.log(fruits);
+fruits.pop();
+console.log(fruits);
+fruits.shift();
+console.log(fruits);
+fruits.splice(0,1);
+console.log(fruits);
